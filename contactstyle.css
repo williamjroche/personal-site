@@ -21,7 +21,6 @@
     background-color: rgb(54, 55, 56);
     border: 3px solid rgb(30, 30, 31);
     border-radius: 10px;
-    width: 16%;
     color: white;
     margin-top: 7%;
     padding-top: 2%;
@@ -140,18 +139,5 @@ header a {
     #hamburger-icon {
       display: block;
     }
-    .emailform{
-        text-align: center;
-        background-color: rgb(54, 55, 56);
-        border: 3px solid rgb(30, 30, 31);
-        border-radius: 10px;
-        width: 16%;
-        color: white;
-        margin-top: 10%;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        padding-left: 2%;
-        padding-right: 2%;
-        display: inline-table;
-    }
+   
   }
