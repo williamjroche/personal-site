@@ -23,7 +23,7 @@
   left: 50%;
   transform: translate(-50%, 10%);
 }
-.mobilelogocontainer{
+/*.mobilelogocontainer{
   position: relative;
   text-align: center;
   top: 50%;
@@ -41,7 +41,7 @@
   border: 2px solid rgb(30, 30, 31);
   border-radius: 7px;
   padding: 5px;
-}
+}*/
 .update{
     text-align: center;
     background-color: rgb(54, 55, 56);
@@ -163,11 +163,7 @@ header a {
     #hamburger-icon {
       display: block;
     }
-    .mobilelogocontainer{
-      position: relative;
-      text-align: center;
-      display: block;
-    }
+   
     .logocontainer{
       display: none;
     }
