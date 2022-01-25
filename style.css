@@ -4,6 +4,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.logo{
+  color: white;
+  font-size: xx-large;
+  position: absolute;
+  top: 29%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid rgb(30, 30, 31);
+  border-radius: 7px;
+  padding: 5px;
+}
+.logocontainer{
+  position: relative;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+}
+.mobilelogocontainer{
+  position: relative;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  display: none;
+}
+.mobilelogo{
+  color: white;
+  font-size: large;
+  position: absolute;
+  top: 29%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid rgb(30, 30, 31);
+  border-radius: 7px;
+  padding: 5px;
+}
 .update{
     text-align: center;
     background-color: rgb(54, 55, 56);
@@ -124,5 +162,13 @@ header a {
   
     #hamburger-icon {
       display: block;
+    }
+    .mobilelogocontainer{
+      position: relative;
+      text-align: center;
+      display: block;
+    }
+    .logocontainer{
+      display: none;
     }
   }
