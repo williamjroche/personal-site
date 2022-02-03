@@ -18,7 +18,7 @@
     display: block;
 }
 body{
-    background-color: wheat;
+    background-color: #818281;
     font-family: "Poppins", sans-serif;
 }
 header a {
@@ -127,19 +127,4 @@ header a {
     #hamburger-icon {
       display: block;
     }
-   
-  
-    .update{
-      text-align: center;
-      background-color: rgb(54, 55, 56);
-      color: white;
-      border: 3px solid rgb(30, 30, 31);
-      border-radius: 10px;
-      margin-top: 5%;
-      margin-left: 31%;
-      margin-right: 31%;
-      padding-top: 2%;
-      padding-bottom: 2%;
-      display: block;
-  }
   }
