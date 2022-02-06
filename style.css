@@ -143,7 +143,7 @@ h1{
 .mobile-nav a{
       display: block;
       width: 100%;
-      max-width: 200px;
+      max-width: 150px;
       margin: 0 auto 16px;
       text-align: center;
       color: #fff;

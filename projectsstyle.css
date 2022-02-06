@@ -42,10 +42,10 @@ body{
     font-weight: bold;
   }
   .status{
-    border: 2px solid rgb(51, 0, 4);
+    border: 2px solid rgb(54, 0, 4);
     border-radius: 30px;
     color: rgb(51, 0, 4);
-    background-color: rgb(242, 7, 27, 0.3);
+    background-color: rgb(242, 7, 27, 0.6);
     font-size: x-small;
     float: left;
     margin-top: 1.5%;
@@ -62,7 +62,7 @@ body{
     text-decoration: underline;
   }
   .maintext{
-    margin-top: 30%;
+    margin-top: 25%;
     text-align: center;
   }
 .container{
@@ -178,7 +178,7 @@ h1{
 .mobile-nav a{
         display: block;
         width: 100%;
-        max-width: 200px;
+        max-width: 150px;
         margin: 0 auto 16px;
         text-align: center;
         color: #fff;

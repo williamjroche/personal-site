@@ -11,6 +11,28 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+#content{
+  margin: 4%;
+  text-align: justify;
+  border-top: 1px solid var(--primary);
+  border-bottom: 1px solid var(--primary);
+}
+
+.title{
+  text-align: center;
+  color: black;
+  font-size: xx-large;
+  margin-top: 25%;
+}
+.uphead{
+  font-size: large;
+  color: black;
+  font-weight: bold;
+}
+.mainc{
+  color: black;
+  font-size: medium;
+}
 .update{
   text-align: center;
   background-color: var(--dark);
@@ -137,7 +159,7 @@ h1{
 .mobile-nav a{
         display: block;
         width: 100%;
-        max-width: 200px;
+        max-width: 150px;
         margin: 0 auto 16px;
         text-align: center;
         color: #fff;
@@ -164,5 +186,25 @@ h1{
       margin-top: 20%;
       margin-left: 31%;
     margin-right: 31%;
+    }
+    .title{
+      margin-top: 10%;
+    }
+    #content{
+      text-align: center;
+      background-color: var(--dark);
+      color: white;
+      border: 3px solid var(--primary);
+      border-radius: 10px;
+      
+      padding-bottom: 2%;
+     
+    }
+    .mainc, .uphead{
+      margin-top: 2%;
+      color: white;
+    }
+    .hr{
+      display: none;
     }
 }
