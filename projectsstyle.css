@@ -33,9 +33,10 @@ body{
     padding-left: 2%;
     padding-right: 2%;
     display: block;
-    margin-left: 15%;
-    margin-right: 15%;
-    
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    margin-bottom: 5%;
   }
   .scve{
     font-size: x-large;
@@ -53,16 +54,16 @@ body{
     font-weight: bold;
   }
   .date{
-    float: left;
+    float: right;
     font-size: x-small;
     font-weight: bold;
     color: var(--light);
-    margin-top: 12%;
+    margin-top: 2%;
     padding: 0.3%;
     text-decoration: underline;
   }
   .maintext{
-    margin-top: 25%;
+    margin-top: 10%;
     text-align: center;
   }
 .container{
