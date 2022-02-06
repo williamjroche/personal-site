@@ -21,6 +21,14 @@ body{
     font-size: xx-large;
     margin-top: 25%;
   }
+  .link{
+    color: var(--light);
+    font-size: medium;
+  }
+  .link:hover{
+    text-decoration: none;
+    font-weight: bold;
+  }
   .emailform{
     text-align: center;
     background-color: var(--dark);
@@ -42,7 +50,18 @@ body{
     font-size: x-large;
     font-weight: bold;
   }
-  .status{
+  .statuswip{
+    border: 2px solid #02420b;
+    border-radius: 30px;
+    color: #02420b;
+    background-color: rgb(8, 189, 32, 0.6);
+    font-size: x-small;
+    float: left;
+    margin-top: 1.5%;
+    padding: 0.3%;
+    font-weight: bold;
+  }
+  .statusa{
     border: 2px solid rgb(54, 0, 4);
     border-radius: 30px;
     color: rgb(51, 0, 4);
