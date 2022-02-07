@@ -233,8 +233,11 @@ h1{
     }
     .emailform{
       padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 2%;
-    padding-right: 2%;
+      padding-bottom: 2%;
+      padding-left: 2%;
+      padding-right: 2%;
+      width: 50%;
+      margin-left: 25%;
+      margin-right: 25%;
     }
 }
