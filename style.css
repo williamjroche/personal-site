@@ -16,21 +16,49 @@ body{
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-/*#footer{
+div.welcome{
+  margin-top: 40%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-top: 4px solid var(--primary);
+  border-bottom: 4px solid var(--primary);
+  border-radius: 15px;
+  text-align: center;
+}
+.message-brand{
+  color: var(--dark);
+  font-weight: 900;
+  font-size: 55px;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+.message-iam{
+  color: var(--dark);
+  font-weight: 900;
+  font-size: 18px;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+#footer{
   position: fixed;
   width: 100%;
   z-index: 99;
   background-color: var(--dark);
-  padding: 16px 32px;
+  padding: 12px 24px;
   border-top: 3px solid var(--primary);
-  transform: translateY(614px);
-  padding-bottom: 20px;
+  bottom: 0;
 }
-.brand{
+.footerbrand{
   color: #fff;
   font-size: 16px;
   font-weight: 900;
-}*/
+  text-align: center;
+}
+.copyright{
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+}
 .update{
   text-align: center;
   background-color: var(--dark);
@@ -148,6 +176,8 @@ h1{
   display: block;
   z-index: 98;
   background-color: var(--dark);
+  /*background: hsl(0 0% 100% / 0.1);
+  backdrop-filter: blur(2rem);*/
   padding-top: 120px;
   transition: 0.4s;
 }
@@ -172,7 +202,7 @@ h1{
   max-width: 150px;
   transition: 0.4s;
 }
-
+/*Desktop*/
 @media (min-width: 768px){
   .hamburger{
       display: none;
@@ -184,5 +214,36 @@ h1{
     margin-top: 20%;
     margin-left: 31%;
   margin-right: 31%;
+  }
+  div.welcome{
+    margin-top: 20%;
+    margin-left: 31%;
+    margin-right: 31%;
+    border-top: 4px solid var(--primary);
+    border-bottom: 4px solid var(--primary);
+    border-radius: 15px;
+    text-align: center;
+  }
+  .message-welcome{
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  .message-to{
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+}
+/*tablet to small monitors*/
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+  div.welcome{
+    margin-top: 30%;
+  }
+}
+/*Weird screen sizes*/
+@media only screen and (min-width: 500px) and (max-width: 768px){
+  div.welcome{
+    margin-top: 30%;
+    margin-left: 25%;
+    margin-right: 25%;
   }
 }
