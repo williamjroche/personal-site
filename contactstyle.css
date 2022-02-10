@@ -11,26 +11,32 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-#footer{
-    position: fixed;
+body{
+    background-color: #dcdcdc;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    min-height: 100vh;
+}
+footer{
+    position: absolute;
     width: 100%;
     z-index: 99;
     background-color: var(--dark);
     padding: 12px 24px;
     border-top: 3px solid var(--primary);
     bottom: 0;
-  }
-  .footerbrand{
+}
+.footerbrand{
     color: #fff;
     font-size: 16px;
     font-weight: 900;
     text-align: center;
-  }
-  .copyright{
+}
+.copyright{
     color: #fff;
     font-size: 10px;
     text-align: center;
-  }
+}
 .texta{
     border-radius: 10px;
 }
@@ -207,7 +213,7 @@ h1{
     max-width: 150px;
     transition: 0.4s;
 }
-
+/*Desktop*/
 @media (min-width: 768px){
     .hamburger{
         display: none;

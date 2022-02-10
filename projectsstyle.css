@@ -6,8 +6,10 @@
 
 }
 body{
-  background-color: #fff;
+  background-color: #dcdcdc;
   font-family: "Poppins", sans-serif;
+  position: relative;
+  min-height: 100vh;
 }
 *{
     margin: 0;
@@ -15,10 +17,9 @@ body{
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-#footer{
-  position: fixed;
+footer{
+  position: absolute;
   width: 100%;
-  z-index: 99;
   background-color: var(--dark);
   padding: 12px 24px;
   border-top: 3px solid var(--primary);
@@ -233,7 +234,7 @@ h1{
     max-width: 150px;
     transition: 0.4s;
 }
-
+/*Desktop*/
 @media (min-width: 768px){
     .hamburger{
         display: none;
