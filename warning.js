@@ -1,0 +1,1 @@
+alert("WARNING! This site is in early development! If you see any bugs or anything that is not visually appealing, please contact me through any method listed in the 'Contact' page, Thanks!")

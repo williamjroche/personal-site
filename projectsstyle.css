@@ -9,7 +9,10 @@ body{
   background-color: #dcdcdc;
   font-family: "Poppins", sans-serif;
   position: relative;
-  min-height: 100vh;
+  height: 100vh;
+  background: url('colorful-scenery.jpg') center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 *{
     margin: 0;
@@ -120,9 +123,10 @@ nav{
     left: 0;
     right: 0;
     z-index: 99;
-    background-color: var(--dark);
+    background-color: rgba(0,0,0,0.0);
+    /*background-color: var(--dark);
+    border-bottom: 3px solid var(--primary);*/
     padding: 16px 32px;
-    border-bottom: 3px solid var(--primary);
 }
 
 h1{
@@ -209,7 +213,9 @@ h1{
     min-height: 100vh;
     display: block;
     z-index: 98;
-    background-color: var(--dark);
+    background: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(2rem);
+    /*background-color: var(--dark);*/
     padding-top: 120px;
     transition: 0.4s;
 }
@@ -217,16 +223,16 @@ h1{
     left: 0;
 }
 .mobile-nav a{
-        display: block;
-        width: 100%;
-        max-width: 150px;
-        margin: 0 auto 16px;
-        text-align: center;
-        color: #fff;
-        padding: 12px 16px;
-        background-color: var(--primary);
-        text-decoration: none;
-        border-radius: 25px;
+  display: block;
+  width: 100%;
+  max-width: 150px;
+  margin: 0 auto 16px;
+  text-align: center;
+  color: #fff;
+  padding: 12px 16px;
+  background-color: var(--primary);
+  text-decoration: none;
+  border-radius: 25px;
 }
 .mobile-nav a:hover{
     padding: 10px 14px;
