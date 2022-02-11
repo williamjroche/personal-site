@@ -27,7 +27,7 @@ footer{
   padding: 12px 24px;
   border-top: 3px solid var(--primary);
   bottom: 0;
-  top: 120vh;
+  top: 100vh;
 }
 .footerbrand{
   color: #fff;
