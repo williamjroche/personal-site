@@ -12,7 +12,7 @@ body{
   height: 120vh;
   background: url('colorful-scenery.jpg') center no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: absolute;
 }
 *{
     margin: 0;
@@ -266,5 +266,8 @@ h1{
       width: 50%;
       margin-left: 25%;
       margin-right: 25%;
+    }
+    body{
+      background-attachment: fixed; 
     }
 }
