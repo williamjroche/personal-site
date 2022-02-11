@@ -15,7 +15,7 @@ body{
     background-color: #dcdcdc;
     font-family: "Poppins", sans-serif;
     position: relative;
-    height: 220vh;
+    height: 120vh;
     background: url('colorful-scenery.jpg') center no-repeat;
     background-size: cover;
     background-attachment: absolute;
@@ -247,3 +247,15 @@ h1{
         background-attachment: fixed; 
       }
 }
+/*tablet to small monitors*/
+@media only screen and (min-width: 768px) and (max-width: 1400px){
+    body{
+      height: 220vh;
+    }
+   }
+   /*Weird screen sizes*/
+   @media only screen and (min-width: 500px) and (max-width: 768px){
+     body{
+       height: 220vh;
+     }
+   }
