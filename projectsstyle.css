@@ -9,7 +9,7 @@ body{
   background-color: #dcdcdc;
   font-family: "Poppins", sans-serif;
   position: relative;
-  height: 100vh;
+  height: 110vh;
   background: url('colorful-scenery.jpg') center no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -27,7 +27,6 @@ footer{
   padding: 12px 24px;
   border-top: 3px solid var(--primary);
   bottom: 0;
-  top: 100vh;
 }
 .footerbrand{
   color: #fff;
