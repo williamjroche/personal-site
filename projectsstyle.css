@@ -27,6 +27,7 @@ footer{
   padding: 12px 24px;
   border-top: 3px solid var(--primary);
   bottom: 0;
+  top: 120vh;
 }
 .footerbrand{
   color: #fff;
@@ -41,7 +42,7 @@ footer{
 }
 .title{
     text-align: center;
-    color: black;
+    color: var(--light);
     font-size: xx-large;
     margin-top: 25%;
   }

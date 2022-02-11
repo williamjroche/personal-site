@@ -52,7 +52,7 @@ footer{
 
 .title{
   text-align: center;
-  color: black;
+  color: var(--light);
   font-size: xx-large;
   margin-top: 25%;
 }
