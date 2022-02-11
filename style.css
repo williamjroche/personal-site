@@ -201,7 +201,7 @@ h1{
   display: block;
   z-index: 98;
   /*background-color: var(--dark);*/
-  background: hsl(0 0% 100% / 0.1);
+  background: hsl(0 0% 100% / 0.5);
   backdrop-filter: blur(2rem);
   padding-top: 120px;
   transition: 0.4s;

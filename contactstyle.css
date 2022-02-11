@@ -192,7 +192,7 @@ h1{
     min-height: 100vh;
     display: block;
     z-index: 98;
-    background: hsl(0 0% 100% / 0.1);
+    background: hsl(0 0% 100% / 0.5);
     backdrop-filter: blur(2rem);
     /*background-color: var(--dark);*/
     padding-top: 120px;
