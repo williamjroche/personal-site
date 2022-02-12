@@ -21,6 +21,19 @@ body{
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+.surprise{
+  background-color: var(--dark);
+  color: var(--light);
+  padding: 4px 4px 4px 4px;
+  border-radius: 15px;
+  border: 2px solid var(--light);
+  position: absolute;
+  top: 25%;
+  right: 5%;
+}
+.surprise:active{
+  border-color: rgba(0,0,0,0.0);
+}
 .text{
   padding-left: 3%;
   padding-right: 3%;
@@ -274,6 +287,9 @@ h1{
   }
   body{
     background-attachment: fixed; 
+  }
+  .surprise:hover{
+    border-color: rgba(0,0,0,0.0);
   }
 }
 /*tablet to small monitors*/

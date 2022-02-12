@@ -1,1 +1,5 @@
-alert("WARNING! This site is in early development! If you see any bugs or anything that is not visually appealing, please contact me through any method listed in the 'Contact' page, Thanks!")
+const buttonPressed = document.querySelector('.surprise');
+
+addEventListener('click', function (){
+    buttonPressed.classList.toggle(this.alert('WARNING! This site is Pushing P'))
+})

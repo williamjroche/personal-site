@@ -3,7 +3,7 @@
     --primary: #8c38ff;
     --light: #EEEEEE;
     --dark: #212121;
-
+    --gray: #878787;
 }
 *{
     margin: 0;
@@ -15,7 +15,7 @@ body{
     background-color: #dcdcdc;
     font-family: "Poppins", sans-serif;
     position: relative;
-    height: 120vh;
+    height: 100vh;
     background: url('colorful-scenery.jpg') center no-repeat;
     background-size: cover;
     background-attachment: absolute;
@@ -40,18 +40,23 @@ footer{
     font-size: 10px;
     text-align: center;
 }
-.texta{
-    border-radius: 10px;
-}
 .texti{
-    border-radius: 7px;
+    width: 100%;
+    background-color: var(--dark);
+    border-bottom:2px solid var(--gray);
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    text-align: left;
+    color: var(--light);
 }
 .submitbttn{
   background-color: var(--primary);
   color: var(--light);
   border: 2px solid var(--primary);
   border-radius: 15px;
-  padding: 1.5%;
+  margin-top: 2%;
+  padding: 2px 2px 2px 2px;
 }
 .title{
     text-align: center;
@@ -74,10 +79,13 @@ footer{
   .emailform{
     text-align: center;
     background-color: var(--dark);
-    border: 3px solid var(--primary);
-    border-radius: 10px;
+    border: 5px solid var(--primary);
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     color: var(--light);
-    margin-top: 3.5%;
+    margin-top: 10%;
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 2%;
@@ -238,6 +246,7 @@ h1{
         margin-left: 25%;
         margin-right: 25%;
         width: 50%;
+        margin-top: 6%;
     }
     .submitbttn{
       padding: 1%;
@@ -245,17 +254,18 @@ h1{
     }
     body{
         background-attachment: fixed; 
+        height: 122vh;
       }
 }
 /*tablet to small monitors*/
 @media only screen and (min-width: 768px) and (max-width: 1400px){
     body{
-      height: 220vh;
+      height: 120vh;
     }
    }
    /*Weird screen sizes*/
    @media only screen and (min-width: 500px) and (max-width: 768px){
      body{
-       height: 220vh;
+       height: 120vh;
      }
    }
