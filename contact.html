@@ -34,15 +34,18 @@
     </nav>
           <script src="index.js"></script>
             <h3 class="title">Contact Me:</h3>
-              <form method="post" action="mailto:limitlesshq1@gmail.com" class="emailform">
+              <form name="contact" method="POST" data-netlify="true" class="emailform">
                 <span class="scve">Contact Via Email</span>
                 <br>
                 <hr>
                 <br>
+                <label for="name" class="label-ns"></label>
                 <input type="text" id="name" name="name" class="texti" placeholder="Name"><br>
+                <label for="email" class="label-ns"></label>
                 <br>
                 <input type="email" id="email" name="email" class="texti" placeholder="Email"><br>
                 <br>
+                <label for="message" class="label-ns"></label>
                 <input type="text" id="message" name="message" class="texti" placeholder="Enter your message"><br>
                 <input type="submit" value="Submit" class="submitbttn">
             </form>

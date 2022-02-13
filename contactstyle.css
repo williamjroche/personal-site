@@ -76,6 +76,9 @@ footer{
       font-size: x-large;
       font-weight: bold;
   }
+  .label-ns{
+      display: none;
+  }
   .emailform{
     text-align: center;
     background-color: var(--dark);

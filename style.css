@@ -13,7 +13,7 @@ body{
   --primary: #8c38ff;
   --light: #EEEEEE;
   --dark: #212121;
-
+  --gray: #878787;
 }
 *{
   margin: 0;
@@ -31,8 +31,8 @@ body{
   top: 25%;
   right: 5%;
 }
-.surprise:active{
-  border-color: rgba(0,0,0,0.0);
+.surprise:hover{
+  background-color: var(--gray);
 }
 .text{
   padding-left: 3%;
