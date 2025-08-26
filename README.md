@@ -1,3 +1,3 @@
-# personal-site
+# Personal Site
 
-This site is meant to be a personal site to test what I learn as I am learning.
+This site is meant to be a personal site to learn front end web development
