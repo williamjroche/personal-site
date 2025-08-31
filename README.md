@@ -12,7 +12,7 @@ Features:
 - Animated Hamburger menu for mobile
 
 Project Roadmap:
--[Completed]
+- [Completed]
 
 Repo Usage:
 1) Download all files into a folder
